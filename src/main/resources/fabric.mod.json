@@ -7,7 +7,12 @@
   "authors": [
     "Wither"
   ],
-  "contact": {},
+  "contact": {
+    "email": "wither.tweets@gmail.com",
+    "homepage": "https://github.com/GitWither/feather-trampling",
+    "issues": "https://github.com/GitWither/feather-trampling/issues",
+    "sources": "https://github.com/GitWither/feather-trampling"
+  },
   "license": "MIT",
   "icon": "assets/feather_trampling/icon.png",
   "environment": "*",
