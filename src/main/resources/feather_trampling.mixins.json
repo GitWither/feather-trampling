@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.daniel.feather_trampling.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FarmlandBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
