@@ -5,7 +5,7 @@
   "name": "Feather Trampling",
   "description": "A mod that prevents you from trampling farmland while wearing boots with Feather Falling",
   "authors": [
-    "Wither"
+    "Daniel K."
   ],
   "contact": {
     "email": "wither.tweets@gmail.com",
@@ -26,6 +26,6 @@
   ],
   "depends": {
     "fabricloader": ">=0.11.3",
-    "minecraft": "1.17.1"
+    "minecraft": "1.18-rc.3"
   }
 }
