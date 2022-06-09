@@ -13,7 +13,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.text.LiteralText;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
@@ -33,7 +33,7 @@ public class FarmlandBlockMixin extends Block {
         if (entity != null) {
             if (EnchantmentHelper.getEquipmentLevel(Enchantments.FEATHER_FALLING, (LivingEntity) entity) > 0) {
                 if (FabricLoader.getInstance().isDevelopmentEnvironment() && entity instanceof PlayerEntity) {
-                    ((PlayerEntity) entity).sendMessage(new LiteralText("[Debug] Prevented trampling"), false);
+                    ((PlayerEntity) entity).sendMessage(Text.of("[Debug] Prevented trampling"), false);
                 }
                 super.onLandedUpon(world, state, pos, entity, fallDistance);
                 info.cancel();
